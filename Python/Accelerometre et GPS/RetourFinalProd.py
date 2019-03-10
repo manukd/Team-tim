@@ -161,7 +161,7 @@ def getDirection(latActuelle, longActuelle):
     
     print('-----------')
     
-    #requests.post('http://localhost/api/index.php', data = json.dumps(dataJson))
+    requests.post('http://localhost/api/sendJsonData', data = json.dumps(dataJson))
     
     #req = urllib2.Request('http://localhost/api/index.php')
     #req.add_header('Content-Type', 'application/json')
